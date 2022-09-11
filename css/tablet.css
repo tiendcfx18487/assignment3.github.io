@@ -1,0 +1,44 @@
+@media (min-width: 768px) and (max-width: 1024px){
+    /*Nav bar*/
+    .text-nav{
+        display: none;
+    }
+    #nav-bar a:link,a:visited {
+        padding: 10px;
+        margin-right: 1rem;
+    }
+    .container-nav{
+        margin-bottom: -24px;
+    }
+    /*Job-info*/
+    .container-job {
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: 500px auto auto;
+        gap: 20px;
+        align-items: start;
+    }
+    .hobby-content{
+        margin-left: 10px;
+    }
+    /*Chứng chỉ - Giải Thưởng*/
+    .cer-content {
+        display: block;
+    }
+
+    /*Project*/
+    .project-item {
+        display: grid;
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: 530px;
+        grid-gap: 10px;
+    }
+    .project-item img {
+        width: 250px;
+        height: 250px;
+    }
+    /*footer*/
+    #footer { 
+        margin-top: 25%;
+        font-size: 25px;
+    }
+}

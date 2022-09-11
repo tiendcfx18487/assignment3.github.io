@@ -1,0 +1,6 @@
+@media (min-width: 1200px){
+    /*Navbar*/
+    .container-nav{
+        margin-bottom: -24px;
+    }
+}
